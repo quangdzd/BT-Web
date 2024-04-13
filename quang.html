@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 100 wp;
+            height: 100 hp;
+            background-image: url('https://www.state.gov/wp-content/uploads/2021/07/Covid_World_regions-base-update-07212021-01.png');
+            background-size: cover;
+        }
+        .block{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            color: white;
+            padding: 0 10% 0 10%;
+        }
+ .input{
+            display: flex;
+            justify-content: center;
+            text-align: left;
+            width: 80%;
+            margin: auto;
+            padding: 10px 0 10px 30px;
+ }
+
+button{
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 0 20px 10px 20px;
+    background-color: rgb(37, 153, 255);
+    border: 1px white solid;
+
+
+}
+.arrow-right,
+.arrow-left{
+  display: block;
+  margin: 30px auto;
+  width: 25px;
+  height: 25px;
+  border-top: 2px solid #000;
+  border-left: 2px solid #000;
+  
+}
+.arrow-right{
+ transform: rotate(135deg);
+}
+
+.arrow-left{
+ transform: rotate(-45deg);
+}
+.arrow-right::after,
+.arrow-left::after{
+  content: "";
+  display: block;
+  width: 2px;
+  height: 45px;
+  background-color: black;
+  transform: rotate(-45deg) translate(15px, 4px);
+  left: 0;
+  top: 0;
+}
+.b1{
+    display: inline-block;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="block"><strong> Trình rút ngắn URl của PTIT Logger - Đăng nhập và theo dõi địa chỉ IP</strong></h1>
+
+        <p class="block">PTIT Logger là Công cụ rút ngắn URL với các phân tích nâng cao về lưu lượng truy cập thông tin qua các liên kết, khách truy cập trên cửa hàng trực tuyến, blog hoặc trang web của bạn. Với các dịch vụ trực tuyến IPLogger, bạn có thể tìm địa chỉ IP của riêng mình, tìm vị trí địa chỉ IP và theo dõi vị trí chính xác của bất kỳ thiết bị di động hoặc PC nào, kiểm tra URL để tìm các chuyển hướng ẩn vì lý do an toàn. Có một số cách để thu thập phân tích chi tiết và theo dõi địa chỉ IP: liên kết ngắn, pixel vô hình, công cụ ghi nhật ký địa lý độc đáo và sử dụng trình theo dõi URL. Bạn có thể sử dụng bẫy IP hoàn toàn hợp pháp bằng cách sử dụng công nghệ được cấp bằng sáng chế độc đáo của chúng tôi để thu thập sự đồng ý của người dùng </p>
+
+        <h2 class="block"><strong> Tạo liên kết mới, URL theo dõi hoặc điện thoại di động</strong></h2>
+        <!-- <div style="position: absolute; width: 80%;"> -->
+        <!-- <i class="gg-globe-alt"></i> -->
+        <input type="text" class="input" placeholder="Nhập url, số điện thoại hoặc mã theo dõi hợp lệ">
+    <!-- </div> -->
+
+        <p class="block">Bằng cách tạo một trình nhật kí bạn đồng ý với <a href="#">các điều khoản </a> và <a href="#"> chính sách quyền riêng tư của chúng tôi</a></p>
+        <div class="block">
+            <button>Tạo một liên kết ngắn</button><button>Đó là mã theo dõi</button>
+        </div>
+        <div class="block">
+            <div class="b1 arrow-right"></div>
+                <div style="display: inline-block; background-color: green; height: 20px;  padding: 5px 5px 5px 5px;" > tắt quảng cáo
+            </div> 
+           <div class=" b1 arrow-left"></div>
+
+        </div>
+    </div>
+</body>
+</html>
